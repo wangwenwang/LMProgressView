@@ -30,6 +30,8 @@
     
     _isEnd = YES;
     
+    //
+    
 }
 
 - (void)didReceiveMemoryWarning {
