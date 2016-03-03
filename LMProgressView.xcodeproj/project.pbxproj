@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E7B24F01C880B9A000D130E /* progress.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E7B24EF1C880B9A000D130E /* progress.gif */; };
 		2EC4AD121C87097C002AF5AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4AD111C87097C002AF5AA /* main.m */; };
 		2EC4AD151C87097D002AF5AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4AD141C87097D002AF5AA /* AppDelegate.m */; };
 		2EC4AD181C87097D002AF5AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4AD171C87097D002AF5AA /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E7B24EF1C880B9A000D130E /* progress.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = progress.gif; sourceTree = "<group>"; };
 		2EC4AD0D1C87097B002AF5AA /* LMProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC4AD111C87097C002AF5AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EC4AD131C87097C002AF5AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,9 +83,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E7B24EC1C880AB4000D130E /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				2E7B24EF1C880B9A000D130E /* progress.gif */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		2EC4AD041C87097B002AF5AA = {
 			isa = PBXGroup;
 			children = (
+				2E7B24EC1C880AB4000D130E /* Screenshots */,
 				2EC4AD431C8709CD002AF5AA /* Third */,
 				2EC4AD0F1C87097B002AF5AA /* LMProgressView */,
 				2EC4AD291C870981002AF5AA /* LMProgressViewTests */,
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EC4AD201C870980002AF5AA /* LaunchScreen.storyboard in Resources */,
+				2E7B24F01C880B9A000D130E /* progress.gif in Resources */,
 				2EC4AD1D1C870980002AF5AA /* Assets.xcassets in Resources */,
 				2EC4AD1B1C87097F002AF5AA /* Main.storyboard in Resources */,
 			);
@@ -512,6 +524,7 @@
 				2EC4AD3C1C870982002AF5AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EC4AD3D1C870982002AF5AA /* Build configuration list for PBXNativeTarget "LMProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +533,7 @@
 				2EC4AD3F1C870982002AF5AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EC4AD401C870982002AF5AA /* Build configuration list for PBXNativeTarget "LMProgressViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +542,7 @@
 				2EC4AD421C870982002AF5AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -30,7 +30,16 @@
     
     _isEnd = YES;
     
-    //
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        for (float i = 0; i < 99 ; i++) {
+            usleep(500000);
+            if( i ==  11) {
+                [self startOnclick:nil];
+            }
+        }
+    });
+    
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     
 }
 
