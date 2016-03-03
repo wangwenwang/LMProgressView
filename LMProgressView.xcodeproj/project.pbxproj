@@ -15,6 +15,7 @@
 		2EC4AD201C870980002AF5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC4AD1E1C870980002AF5AA /* LaunchScreen.storyboard */; };
 		2EC4AD2B1C870982002AF5AA /* LMProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4AD2A1C870982002AF5AA /* LMProgressViewTests.m */; };
 		2EC4AD361C870982002AF5AA /* LMProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4AD351C870982002AF5AA /* LMProgressViewUITests.m */; };
+		2EC4AD461C8709CD002AF5AA /* LMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4AD451C8709CD002AF5AA /* LMProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2EC4AD311C870982002AF5AA /* LMProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC4AD351C870982002AF5AA /* LMProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMProgressViewUITests.m; sourceTree = "<group>"; };
 		2EC4AD371C870982002AF5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC4AD441C8709CD002AF5AA /* LMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProgressView.h; sourceTree = "<group>"; };
+		2EC4AD451C8709CD002AF5AA /* LMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		2EC4AD041C87097B002AF5AA = {
 			isa = PBXGroup;
 			children = (
+				2EC4AD431C8709CD002AF5AA /* Third */,
 				2EC4AD0F1C87097B002AF5AA /* LMProgressView */,
 				2EC4AD291C870981002AF5AA /* LMProgressViewTests */,
 				2EC4AD341C870982002AF5AA /* LMProgressViewUITests */,
@@ -138,6 +142,15 @@
 				2EC4AD371C870982002AF5AA /* Info.plist */,
 			);
 			path = LMProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		2EC4AD431C8709CD002AF5AA /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				2EC4AD441C8709CD002AF5AA /* LMProgressView.h */,
+				2EC4AD451C8709CD002AF5AA /* LMProgressView.m */,
+			);
+			path = Third;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EC4AD461C8709CD002AF5AA /* LMProgressView.m in Sources */,
 				2EC4AD181C87097D002AF5AA /* ViewController.m in Sources */,
 				2EC4AD151C87097D002AF5AA /* AppDelegate.m in Sources */,
 				2EC4AD121C87097C002AF5AA /* main.m in Sources */,
