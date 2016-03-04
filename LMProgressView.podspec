@@ -15,6 +15,6 @@ s.platform     = :ios, '7.0'
 # s.ios.deployment_target = '7.0'
 # s.osx.deployment_target = '10.10.5'
 s.requires_arc = true
-s.source_files = 'Third/LMProgressView.h'
+s.source_files = 'Third/LMProgressView.*'
 s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
 end
