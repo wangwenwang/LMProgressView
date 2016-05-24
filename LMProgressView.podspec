@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'LMProgressView'
-  s.version      = '1.0.1'
+  s.version      = '1.0.2'
   s.license      = "MIT"  //开源协议
   s.homepage     = 'https://github.com/wangwenwang/LMProgressView'
   s.authors      = { '王文望' => '372266373@qq.com' }
