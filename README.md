@@ -1,21 +1,18 @@
 ## How to use LMProgressView ?
 
----
 ```objective-c
 _progressView.progress = progress;
 ```
 
 ## Podfile
 
-***
-
-```objective-c
+```bash
 pod 'LMProgressView'
 ```
 
 Then, run the following command:
 
-```objective-c
+```bash
 $ pod install
 ```
 
@@ -23,7 +20,6 @@ $ pod install
 
 ---
 
-![Progress](https://raw.githubusercontent.com/wangwenwang/LMProgressView/master$
-
+![Progress](https://raw.githubusercontent.com/wangwenwang/LMProgressView/master/Screenshots/progress.gif)
 
 ######MIT
