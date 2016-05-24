@@ -1,14 +1,13 @@
 ## How to use LMProgressView ?
 
 ---
-
 ```objective-c
 _progressView.progress = progress;
 ```
 
 ## Podfile
 
----
+***
 
 ```objective-c
 pod 'LMProgressView'
