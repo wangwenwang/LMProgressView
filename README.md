@@ -6,7 +6,7 @@ _progressView.progress = progress;
 
 ## Podfile
 
-Modify or create Podfil
+Modify or create Podfile
 
 ```bash
 pod 'LMProgressView'
